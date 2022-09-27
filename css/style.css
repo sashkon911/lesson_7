@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+[class*="container"]{
+   max-width: 813px;
+   margin: 0 auto;
+}
+.title{
+font-weight: 900;
+font-size: 38px;
+}
+header{
+   margin-bottom: 58px;
+}
+.img{
+   margin-bottom: 49px;
+}
+.text__one{
+   font-weight: 700;
+   font-size: 20px;
+   padding-left: 19px;
+   margin-bottom: 76px;
+}
+.text__two{
+   font-weight: 700;
+   font-size: 20px;
+   padding-left: 58px;
+   margin-bottom: 61px;
+}
+.text__three{
+   margin-bottom: 61px;
+}
+.list{
+   margin-bottom: 61px;
+}
+main{
+   margin-bottom: 100px;
+}
+.lesson{
+   min-height: 400px;
+   background-image: url("../img/last.jpg");
+   margin-bottom: 100px;
+}
+.lesson__two{
+   min-height: 400px;
+   background-image: url("../img/last.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: aqua;
+}
+.lesson__three{
+   min-height: 400px;
+   background-image: url("../img/last.jpg");
+   background-repeat: repeat-y;
+}
+.lesson__fore{
+   min-height: 400px;
+   background-image: url("../img/last.jpg");
+   background-position: 110px 110px;
+}
+.lesson__five{
+   min-height: 600px;
+background: url("../img/last.jpg") no-repeat 50px 50px/600px, linear-gradient(#ba866c 45%,#f8f3f0 87%,#f8f3f0 87%,#ba866c 91%)
+}
